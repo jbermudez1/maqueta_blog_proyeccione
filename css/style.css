@@ -1,0 +1,190 @@
+body{
+	font-family: Roboto, Arial ,sans serif;
+	margin:0;
+	padding: 0;
+	position :relative;
+
+
+}
+
+@media screen and (min-width: 480px){
+	.logo, img{
+		text-align:center;
+		width:70%;
+		margin: 0 auto;
+	}
+	.index-header > nav {
+		text-align: center;
+	}
+	section {
+	margin-top: 50px;
+	width:90%;
+	margin:0 auto;
+
+	}
+	article > div {
+		width:100%;
+	}
+}
+.index-header > nav > ul > li > a:focus{
+	color:#50E3C2;
+}
+.sub-menu > ul > li > a:focus {
+		color:#4A90E2;
+	}
+
+@media screen and (min-width: 600px){
+	
+}
+@media screen and (min-width: 767px){
+	
+}
+@media screen and (min-width: 950px){
+		.logo, img{
+		
+		float :left;
+		width:20%;
+		
+	}
+	.index-header > nav {
+		float:right;
+	}
+	article {
+	display:flex;
+	margin: 50px;
+	}
+	.description > div {
+	padding: 20px;
+	}
+	section {
+	margin-top: 50px;
+	width:70%;
+	margin:0 auto;
+
+	}
+	.main-nav{
+	
+	position: absolute;
+	box-shadow: 0px 0px 10px 0px gray;
+	margin:0;
+	position:fixed;
+}
+	.index-header > nav > ul > li > a:focus{
+		border-bottom: 4px solid white;
+	}
+	
+
+	.sub-menu {
+		border-bottom:1px solid gray;
+		padding: 1px;
+	}
+
+	
+	
+}
+/* ------------HEADER----------*/
+header {
+	width: 100%;
+	height :30%;
+}
+
+.br-header{
+	
+	background-color:#297BDA ;
+	height: 20px;
+}
+.index-header{
+	padding :10px 20px;
+
+	background-color:#4A90E2;
+	
+	display: inline-block;
+
+}
+.index-header > nav > ul > li > a{
+	color :white;
+	text-decoration: none;
+	padding:30px 10px
+}
+
+.index-header > nav > ul > li {
+		margin :5px 20px;
+	}
+.logo > img {
+	width:100%;
+}
+
+.banner  {
+	width: 100%;
+	margin: 0;
+
+}
+.banner > img  {
+	width: 100%;
+	margin: 0;
+
+}
+.sec-nav {
+	
+	height:30%;
+}
+.sub-menu > ul > li{
+	margin:20px;
+}
+.sub-menu > ul > li > a{
+	color:#4A4A4A;
+	text-decoration: none;
+	padding:10px 2px;
+}
+
+
+
+
+li {
+	display: inline-block;
+}
+
+
+/*article > div {
+	width:50%;
+}*/
+.image > img {
+	width:100%;
+}
+h2{
+	font-weight: normal;
+	font-size: 2em
+}
+p{
+	font-weight:lighter;
+	line-height: 150%;
+}
+
+#boton-mas{
+	text-decoration: none;
+	color:#4A90E2;
+	font-weight: normal;
+}
+h5 {
+	
+	display:inline-block;
+	margin:1px 5px;
+}
+.autor {
+	color:#71B12F;
+}
+.fecha {
+	color: #9B9B9B;
+	font-weight: lighter;
+}
+article{
+	margin:90px 10px;
+}
+footer{
+
+	height: 40px
+	background-color: #404041;
+	text-align: center;
+	border-top :1px solid black;
+}
+
